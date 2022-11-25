@@ -1,4 +1,5 @@
 <?php
+use GuzzleHttp\Exception\RequestException;
 
 
 class ZoomEye extends Api {

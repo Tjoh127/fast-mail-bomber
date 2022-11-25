@@ -1,4 +1,5 @@
 <?php
+use GuzzleHttp\Exception\RequestException;
 class Shodan extends Api {
     public function get_providers($page) {
         global $guzzle;
